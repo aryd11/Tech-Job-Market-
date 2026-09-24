@@ -21,6 +21,26 @@ with country filtering and whitelist support.
 - **Notebook:** Jupyter
 - **Frontend:** Streamlit 
 
+## 📊 Dataset
+
+This project uses the **Stack Overflow Developer Survey** dataset,
+which captures developer demographics, skills, salaries, and technology usage
+from thousands of respondents worldwide.
+
+- **Source:** [Stack Overflow Developer Survey](https://openi.pcl.ac.cn/AIisAllweNeed/Stack-Overflow-Developer-Survey/datasets)
+- **Hosted on:** OpenI (Peng Cheng Laboratory)
+- **Original survey:** [Stack Overflow Annual Developer Survey](https://survey.stackoverflow.co/)
+- **Format:** CSV
+- **Processing:** Cleaned and preprocessed in `notebooks/01_eda.ipynb`
+
+### Why This Dataset?
+We explored real-time / live APIs for developer skills data, but most options:
+- Had strict API rate limits
+- Required paid access
+- Lacked tech-specific data
+
+The Stack Overflow Developer Survey provided the most comprehensive,
+reliable, and tech-focused dataset for our recommendation engine.
 ## 📁 Project Structure
 ```
 ├── frontend.py            # Main app entry point
