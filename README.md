@@ -3,8 +3,6 @@
 A Python-based application that recommends skills based on user input,
 with country filtering and whitelist support.
 
-![Preview](download-removebg-preview.png)
-
 ## ✨ Features
 - Skill recommendations with whitelist filtering
 - Country-based filtering
