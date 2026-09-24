@@ -31,7 +31,7 @@ from thousands of respondents worldwide.
 - **Hosted on:** OpenI (Peng Cheng Laboratory)
 - **Original survey:** [Stack Overflow Annual Developer Survey](https://survey.stackoverflow.co/)
 - **Format:** CSV
-- **Processing:** Cleaned and preprocessed in `notebooks/01_eda.ipynb`
+- **Processing:** Cleaned and preprocessed in `EDA.ipynb`
 
 ### Why This Dataset?
 We explored real-time / live APIs for developer skills data, but most options:
